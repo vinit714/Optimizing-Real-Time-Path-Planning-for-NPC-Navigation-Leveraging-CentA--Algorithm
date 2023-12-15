@@ -1,0 +1,35 @@
+STEP 1:	LIST OPEN, CLOSED; 
+STEP 2:	For each SP;
+	Vector SP -> X;
+	End for
+STEP 3:	For each EP;
+	Vector EP -> Y;
+	End for
+STEP 4:	MinDist(X,Y);
+	DIST=X-Y;
+	MIN(DIST) -> S,E; 
+	//Respective value of X and Y
+	Set remaining X and Y to CLOSED;
+STEP 5:	OPEN -> ∅
+	CLOSED -> ∅
+STEP 6:	S -> OPEN;
+STEP 7:	loop
+STEP 8:	C = MIN(OPEN);                   
+	//node in OPEN with lowest f_cost
+	POP C from OPEN;
+	C -> CLOSED;
+STEP 9	if C == E;
+		return PATH;
+	End if
+STEP 10:	for each N of C
+		if N != Walkable || N == CLOSED
+			skip
+		End if
+	End for
+STEP 11:	if new N < N || N != OPEN
+		set f_cost of N
+		set P of N == C
+		if N != OPEN
+			N -> OPEN
+	End if
+	End loop

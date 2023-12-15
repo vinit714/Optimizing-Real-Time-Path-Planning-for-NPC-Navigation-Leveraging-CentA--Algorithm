@@ -1,4 +1,4 @@
-![image](https://github.com/vinit714/Optimizing-Real-Time-Path-Planning-for-NPC-Navigation-Leveraging-CentA--Algorithm/assets/52816788/098efa53-f79f-45b5-98ea-eedde2327eb4)# Optimizing Real-Time Path Planning for NPC Navigation: Leveraging CentA* Algorithm to Enhance Efficiency and Adaptability
+# Optimizing Real-Time Path Planning for NPC Navigation: Leveraging CentA* Algorithm to Enhance Efficiency and Adaptability
 
 This project introduces CentA*, an extension of the A* algorithm, for optimized NPC pathfinding in game development. Implemented in Unreal Engine 5, the algorithm enhances starting and ending node selection, improving efficiency. The system, developed with Blueprints and C++, features diverse enemy behaviors governed by a behavior tree. The balance between accuracy and efficiency in pathfinding accommodates obstacles, dynamic environments, and multiple agents. The project highlights the critical role of pathfinding algorithms in creating realistic and immersive gaming experiences. CentA* stands out as an improvement over traditional A*, offering enhanced NPC behavior and an elevated gaming experience.
  
@@ -28,6 +28,10 @@ In our approach to game development, pathfinding is crucial for NPC navigation. 
 + Modified the A* algorithm by using heuristic as Euclidean distance instead of using Manhattan distance and starting the path-finding from the closest block to reaching the closest enemy block.
 ![image](https://github.com/vinit714/Optimizing-Real-Time-Path-Planning-for-NPC-Navigation-Leveraging-CentA--Algorithm/assets/52816788/608b144c-7225-42f3-8cea-5823a9b46779)
 
-This algorithm is similar to the A* algorithm in finding the F-Cost value of each node. But the performance differentiates when either the Start or Target object falls under different nodes at a time as in Figure. This helps with the object that has greater areas and acts as an early behavior trigger in the path finding.
+This algorithm is similar to the A* algorithm in finding the F-Cost value of each node. But the performance differentiates when either the Start or Target object falls under different nodes at a time as in Figure. This helps with the object that has greater areas and acts as an early behavior trigger in the pathfinding.
+
+## Proposed Modules and their Algorithm Description
+The proposed algorithm of the project can be found [here](../Algorithm.txt)
+
 
 

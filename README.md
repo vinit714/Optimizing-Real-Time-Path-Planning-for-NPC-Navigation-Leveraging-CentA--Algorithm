@@ -1,2 +1,4 @@
 # Optimizing Real-Time Path Planning for NPC Navigation: Leveraging CentA* Algorithm to Enhance Efficiency and Adaptability
+
+This project introduces CentA*, an extension of the A* algorithm, for optimized NPC pathfinding in game development. Implemented in Unreal Engine 5, the algorithm enhances starting and ending node selection, improving efficiency. The system, developed with Blueprints and C++, features diverse enemy behaviors governed by a behavior tree. The balance between accuracy and efficiency in pathfinding accommodates obstacles, dynamic environments, and multiple agents. The project highlights the critical role of pathfinding algorithms in creating realistic and immersive gaming experiences. CentA* stands out as an improvement over traditional A*, offering enhanced NPC behavior and an elevated gaming experience.
  

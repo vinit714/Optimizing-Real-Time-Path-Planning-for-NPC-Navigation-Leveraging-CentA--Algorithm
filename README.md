@@ -31,7 +31,10 @@ In our approach to game development, pathfinding is crucial for NPC navigation. 
 This algorithm is similar to the A* algorithm in finding the F-Cost value of each node. But the performance differentiates when either the Start or Target object falls under different nodes at a time as in Figure. This helps with the object that has greater areas and acts as an early behavior trigger in the pathfinding.
 
 ## Proposed Modules and their Algorithm Description
-The proposed algorithm of the project can be found [here](https://github.com/vinit714/Optimizing-Real-Time-Path-Planning-for-NPC-Navigation-Leveraging-CentA--Algorithm/blob/main/Algorithm.txt)
+The proposed algorithm of the project can be found [here.](https://github.com/vinit714/Optimizing-Real-Time-Path-Planning-for-NPC-Navigation-Leveraging-CentA--Algorithm/blob/main/Algorithm.txt)
+
+# Results and Conclusions
+
 
 
 

@@ -45,7 +45,5 @@ than other pathfinding algorithms. The experiments carried out show that the Cen
 algorithm is a superior pathfinding algorithm in terms of efficiency and accuracy when
 compared to Dijkstra’s Algorithm, Greedy Best-First, and A* algorithm
 
-# Reference
-
 
 

@@ -33,8 +33,19 @@ This algorithm is similar to the A* algorithm in finding the F-Cost value of eac
 ## Proposed Modules and their Algorithm Description
 The proposed algorithm of the project can be found [here.](https://github.com/vinit714/Optimizing-Real-Time-Path-Planning-for-NPC-Navigation-Leveraging-CentA--Algorithm/blob/main/Algorithm.txt)
 
-# Results and Conclusions
+# Experimental Results and Conclusions
 
+The comparison is based on three different scenarios, and the results are shown in the figure below. According to the results, the algorithm developed outperforms the other algorithms in Scenarios 1 and 2 in terms of path length and time consumption. However, in Scenario 3, the algorithm performs the worst due to the nodes being closed, leading to the shortest path being blocked. Nevertheless, the algorithm is still shown to be effective in finding shorter paths and consuming less time, as it initiates the behavior of the NPC AI on the most promising nodes instead of the centroid of the object nodes. The results highlight the importance of choosing the appropriate pathfinding algorithm based on the game environment and scenario, as different algorithms may perform differently in different situations. You can find all the Scenarios in which the experiments were conducted here.
+![image](https://github.com/vinit714/Optimizing-Real-Time-Path-Planning-for-NPC-Navigation-Leveraging-CentA--Algorithm/assets/52816788/0fd97323-0df7-46b6-9f23-38a7eaaf7fcf)
+
+The CentA* algorithm extends A* by providing it with a more optimal start and end node,
+which enhances the algorithm's efficiency and effectiveness. By doing so, the algorithm can
+identify the most efficient path between two points in a graph more quickly and accurately
+than other pathfinding algorithms. The experiments carried out show that the CentA*
+algorithm is a superior pathfinding algorithm in terms of efficiency and accuracy when
+compared to Dijkstra’s Algorithm, Greedy Best-First, and A* algorithm
+
+# Reference
 
 
 

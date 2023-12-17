@@ -17,7 +17,7 @@ AI pathfinding plays a pivotal role in game development, enabling non-player cha
 + Our Behaviour Tree should be able to encounter any type of disturbance in the way.
 
 # Architecture
-![WhatsApp Image 2023-12-15 at 19 11 21](https://github.com/vinit714/Optimizing-Real-Time-Path-Planning-for-NPC-Navigation-Leveraging-CentA--Algorithm/assets/52816788/40dc93c0-e731-43a5-bc6f-7907d08ef778)
+![IMG](https://github.com/vinit714/Optimizing-Real-Time-Path-Planning-for-NPC-Navigation-Leveraging-CentA--Algorithm/assets/52816788/40dc93c0-e731-43a5-bc6f-7907d08ef778)
 
 
 # METHODOLOGY
@@ -30,13 +30,24 @@ In our approach to game development, pathfinding is crucial for NPC navigation. 
 
 This algorithm is similar to the A* algorithm in finding the F-Cost value of each node. But the performance differentiates when either the Start or Target object falls under different nodes at a time as in Figure. This helps with the object that has greater areas and acts as an early behavior trigger in the pathfinding.
 
+## Unreal Engine 5 Blueprints
+
+The Blueprint visual scripting system enables game designers and artists to
+create game logic and behavior without writing a single line of code. This allows for
+rapid prototyping, iteration, and experimentation, which speeds up the development
+process. All the blueprints in the project can be found [here.](https://github.com/vinit714/Optimizing-Real-Time-Path-Planning-for-NPC-Navigation-Leveraging-CentA--Algorithm/blob/main/Blueprint.md)
+
 ## Proposed Modules and their Algorithm Description
 The proposed algorithm of the project can be found [here.](https://github.com/vinit714/Optimizing-Real-Time-Path-Planning-for-NPC-Navigation-Leveraging-CentA--Algorithm/blob/main/Algorithm.txt)
 
-# Experimental Results and Conclusions
+# Experimental Results
 
-The comparison is based on three different scenarios, and the results are shown in the figure below. According to the results, the algorithm developed outperforms the other algorithms in Scenarios 1 and 2 in terms of path length and time consumption. However, in Scenario 3, the algorithm performs the worst due to the nodes being closed, leading to the shortest path being blocked. Nevertheless, the algorithm is still shown to be effective in finding shorter paths and consuming less time, as it initiates the behavior of the NPC AI on the most promising nodes instead of the centroid of the object nodes. The results highlight the importance of choosing the appropriate pathfinding algorithm based on the game environment and scenario, as different algorithms may perform differently in different situations. You can find all the Scenarios in which the experiments were conducted here.
+The comparison is based on three different scenarios, and the results are shown in the figure below. According to the results, the algorithm developed outperforms the other algorithms in Scenarios 1 and 2 in terms of path length and time consumption. However, in Scenario 3, the algorithm performs the worst due to the nodes being closed, leading to the shortest path being blocked. Nevertheless, the algorithm is still shown to be effective in finding shorter paths and consuming less time, as it initiates the behavior of the NPC AI on the most promising nodes instead of the centroid of the object nodes. The results highlight the importance of choosing the appropriate pathfinding algorithm based on the game environment and scenario, as different algorithms may perform differently in different situations. You can find all the Scenarios in which the experiments were conducted [here.](https://github.com/vinit714/Optimizing-Real-Time-Path-Planning-for-NPC-Navigation-Leveraging-CentA--Algorithm/blob/main/Results%20Cent%20A%20star.pptx)
+
+
 ![image](https://github.com/vinit714/Optimizing-Real-Time-Path-Planning-for-NPC-Navigation-Leveraging-CentA--Algorithm/assets/52816788/0fd97323-0df7-46b6-9f23-38a7eaaf7fcf)
+
+# Conclusion
 
 The CentA* algorithm extends A* by providing it with a more optimal start and end node,
 which enhances the algorithm's efficiency and effectiveness. By doing so, the algorithm can
